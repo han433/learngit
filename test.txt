@@ -6,3 +6,4 @@ Creating a new branch is quick.
 Creating a new branch is quick & master.
 Creating a new branch is quick AND simple.
 创建并切换dev分支
+修复一个bug
