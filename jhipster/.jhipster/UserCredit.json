@@ -1,0 +1,21 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "userId",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "credit",
+            "fieldType": "Integer",
+            "fieldValidateRules": []
+        }
+    ],
+    "changelogDate": "20171214020116",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "user_credit",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

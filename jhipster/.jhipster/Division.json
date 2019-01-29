@@ -1,0 +1,40 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "address",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "province",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "country",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "zipcode",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "tenantId",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20180917220201",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "division",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

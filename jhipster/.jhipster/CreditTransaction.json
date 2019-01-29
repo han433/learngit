@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "userId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "tenantId",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20181126195655",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "credit_transaction",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

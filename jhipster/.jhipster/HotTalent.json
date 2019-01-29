@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "hot",
+            "otherEntityName": "hot",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "hotid",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "talentid",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180227015103",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "hot_talent",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "userId",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180913172058",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "user_alert",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

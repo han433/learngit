@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "start_id",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180901013346",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "invoice",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

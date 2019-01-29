@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "team_title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "user_id",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20180126003022",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "team",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

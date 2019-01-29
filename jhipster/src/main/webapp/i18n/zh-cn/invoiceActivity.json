@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "invoiceActivity" : {
+            "home": {
+                "title": "Invoice Activities",
+                "createLabel": "创建新 Invoice Activity",
+                "createOrEditLabel": "创建或编辑 Invoice Activity"
+            },
+            "created": "Invoice Activity {{ param }} 创建成功",
+            "updated": "Invoice Activity {{ param }} 更新成功",
+            "deleted": "Invoice Activity {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Invoice Activity {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Invoice Activity"
+            },
+            "subInvoiceNo": "Sub Invoice No"
+        }
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "jhipsterApp": {
+        "hot" : {
+            "home": {
+                "title": "Hots",
+                "createLabel": "创建新 Hot",
+                "createOrEditLabel": "创建或编辑 Hot"
+            },
+            "created": "Hot {{ param }} 创建成功",
+            "updated": "Hot {{ param }} 更新成功",
+            "deleted": "Hot {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Hot {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Hot"
+            },
+            "title": "Title",
+            "notes": "Notes",
+            "n": "N"
+        }
+    }
+}

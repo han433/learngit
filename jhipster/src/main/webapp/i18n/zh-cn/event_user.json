@@ -1,0 +1,20 @@
+{
+    "jhipsterApp": {
+        "event_user" : {
+            "home": {
+                "title": "Event Users",
+                "createLabel": "创建新 Event User",
+                "createOrEditLabel": "创建或编辑 Event User"
+            },
+            "created": "Event User {{ param }} 创建成功",
+            "updated": "Event User {{ param }} 更新成功",
+            "deleted": "Event User {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Event User {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Event User"
+            }
+        }
+    }
+}

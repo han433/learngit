@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "city",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181213013608",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "talent_location",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

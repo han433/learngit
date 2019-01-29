@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "tenantId",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "paramName",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181126192941",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "apn_param",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

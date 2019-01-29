@@ -1,0 +1,27 @@
+{
+    "jhipsterApp": {
+        "division" : {
+            "home": {
+                "title": "Divisions",
+                "createLabel": "创建新 Division",
+                "createOrEditLabel": "创建或编辑 Division"
+            },
+            "created": "Division {{ param }} 创建成功",
+            "updated": "Division {{ param }} 更新成功",
+            "deleted": "Division {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Division {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Division"
+            },
+            "name": "Name",
+            "address": "Address",
+            "city": "City",
+            "province": "Province",
+            "country": "Country",
+            "zipcode": "Zipcode",
+            "tenantId": "Tenant Id"
+        }
+    }
+}

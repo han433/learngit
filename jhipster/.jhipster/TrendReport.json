@@ -1,0 +1,20 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "company",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "hire",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180326222426",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "trend_report",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,23 @@
+{
+    "jhipsterApp": {
+        "hotUser" : {
+            "home": {
+                "title": "Hot Users",
+                "createLabel": "创建新 Hot User",
+                "createOrEditLabel": "创建或编辑 Hot User"
+            },
+            "created": "Hot User {{ param }} 创建成功",
+            "updated": "Hot User {{ param }} 更新成功",
+            "deleted": "Hot User {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Hot User {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Hot User"
+            },
+            "hotid": "Hotid",
+            "userid": "Userid",
+            "hot": "Hot"
+        }
+    }
+}

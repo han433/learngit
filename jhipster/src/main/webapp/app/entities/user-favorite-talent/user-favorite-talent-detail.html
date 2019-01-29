@@ -1,0 +1,23 @@
+
+<div>
+    <h2><span data-translate="jhipsterApp.userFavoriteTalent.detail.title">User Favorite Talent</span> {{vm.userFavoriteTalent.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="jhipsterApp.userFavoriteTalent.userId">User Id</span></dt>
+        <dd>
+            <span>{{vm.userFavoriteTalent.userId}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="user-favorite-talent-detail.edit({id:vm.userFavoriteTalent.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

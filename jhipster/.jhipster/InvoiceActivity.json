@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "subInvoiceNo",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180927185624",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "invoice_activity",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

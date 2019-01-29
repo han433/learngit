@@ -1,0 +1,47 @@
+
+<div>
+    <h2><span data-translate="jhipsterApp.division.detail.title">Division</span> {{vm.division.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="jhipsterApp.division.name">Name</span></dt>
+        <dd>
+            <span>{{vm.division.name}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.division.address">Address</span></dt>
+        <dd>
+            <span>{{vm.division.address}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.division.city">City</span></dt>
+        <dd>
+            <span>{{vm.division.city}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.division.province">Province</span></dt>
+        <dd>
+            <span>{{vm.division.province}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.division.country">Country</span></dt>
+        <dd>
+            <span>{{vm.division.country}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.division.zipcode">Zipcode</span></dt>
+        <dd>
+            <span>{{vm.division.zipcode}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.division.tenantId">Tenant Id</span></dt>
+        <dd>
+            <span>{{vm.division.tenantId | date:'medium'}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="division-detail.edit({id:vm.division.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

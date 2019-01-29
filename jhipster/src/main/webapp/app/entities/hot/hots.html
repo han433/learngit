@@ -1,0 +1,62 @@
+<div>
+    <h2 data-translate="jhipsterApp.hot.home.title">Hots</h2>
+    <jhi-alert></jhi-alert>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-xs-4 no-padding-left">
+                <button class="btn btn-primary" ui-sref="hot.new" >
+                    <span class="glyphicon glyphicon-plus"></span>
+                    <span  data-translate="jhipsterApp.hot.home.createLabel">
+                        Create new Hot
+                    </span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <br/>
+    <div class="table-responsive">
+        <table class="jh-table table table-striped">
+            <thead>
+                <tr>
+                    <th><span data-translate="global.field.id">ID</span></th>
+                    <th><span data-translate="jhipsterApp.hot.title">Title</span></th>
+                    <th><span data-translate="jhipsterApp.hot.notes">Notes</span></th>
+                    <th><span data-translate="jhipsterApp.hot.n">N</span></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr ng-repeat="hot in vm.hots track by hot.id">
+                    <td><a ui-sref="hot-detail({id:hot.id})">{{hot.id}}</a></td>
+                    <td>{{hot.title}}</td>
+                    <td>{{hot.notes}}</td>
+                    <td>
+                        <a ui-sref="hot-user-detail({id:hot.n.id})">{{hot.n.id}}</a>
+                    </td>
+                    <td class="text-right">
+                        <div class="btn-group flex-btn-group-container">
+                            <button type="submit"
+                                    ui-sref="hot-detail({id:hot.id})"
+                                    class="btn btn-info btn-sm">
+                                <span class="glyphicon glyphicon-eye-open"></span>
+                                <span class="hidden-sm-down" data-translate="entity.action.view"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="hot.edit({id:hot.id})"
+                                    class="btn btn-primary btn-sm">
+                                <span class="glyphicon glyphicon-pencil"></span>
+                                <span class="hidden-sm-down" data-translate="entity.action.edit"></span>
+                            </button>
+                            <button type="submit"
+                                    ui-sref="hot.delete({id:hot.id})"
+                                    class="btn btn-danger btn-sm">
+                                <span class="glyphicon glyphicon-remove-circle"></span>
+                                <span class="hidden-sm-down" data-translate="entity.action.delete"></span>
+                            </button>
+                        </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

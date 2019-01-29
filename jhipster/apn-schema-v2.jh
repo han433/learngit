@@ -1,0 +1,17 @@
+// Talent describes the person potentially seek jobs
+// Talent profiles belong to tenant. Each tenant has its own version of talents.
+// Multiple tenants will have different talents, even they may be the same actual person.
+// Talent comes from referred by sourcer or crawled from job sites, e.g. LinkedIn
+// Talent may or may not have a job associated when created / updated
+// When has job associated, it is considered candidates. If not, it is considered in watching list.
+entity City {
+    name String required,
+    province String required
+}
+entity Province {
+    name String required,
+    country String required
+}
+entity Country {
+    name String required
+}

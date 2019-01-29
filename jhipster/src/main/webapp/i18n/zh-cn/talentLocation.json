@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "talentLocation" : {
+            "home": {
+                "title": "Talent Locations",
+                "createLabel": "创建新 Talent Location",
+                "createOrEditLabel": "创建或编辑 Talent Location"
+            },
+            "created": "Talent Location {{ param }} 创建成功",
+            "updated": "Talent Location {{ param }} 更新成功",
+            "deleted": "Talent Location {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Talent Location {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Talent Location"
+            },
+            "city": "City"
+        }
+    }
+}

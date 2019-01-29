@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "vc_agreement" : {
+            "home": {
+                "title": "Vc Agreements",
+                "createLabel": "创建新 Vc Agreement",
+                "createOrEditLabel": "创建或编辑 Vc Agreement"
+            },
+            "created": "Vc Agreement {{ param }} 创建成功",
+            "updated": "Vc Agreement {{ param }} 更新成功",
+            "deleted": "Vc Agreement {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Vc Agreement {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Vc Agreement"
+            },
+            "sign_date": "Sign Date"
+        }
+    }
+}

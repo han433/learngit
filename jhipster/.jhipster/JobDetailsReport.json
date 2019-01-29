@@ -1,0 +1,23 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "n",
+            "otherEntityName": "n",
+            "relationshipType": "one-to-many",
+            "otherEntityRelationshipName": "n"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "batchId",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180409233147",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "job_details_report",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

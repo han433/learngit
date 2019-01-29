@@ -1,0 +1,24 @@
+{
+    "jhipsterApp": {
+        "sequence" : {
+            "home": {
+                "title": "Sequences",
+                "createLabel": "创建新 Sequence",
+                "createOrEditLabel": "创建或编辑 Sequence"
+            },
+            "created": "Sequence {{ param }} 创建成功",
+            "updated": "Sequence {{ param }} 更新成功",
+            "deleted": "Sequence {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Sequence {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Sequence"
+            },
+            "name": "Name",
+            "currentValue": "Current Value",
+            "increment": "Increment",
+            "maxValue": "Max Value"
+        }
+    }
+}

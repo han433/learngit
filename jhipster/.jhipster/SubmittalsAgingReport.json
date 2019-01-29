@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "company",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20181206234520",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "submittals_aging_report",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

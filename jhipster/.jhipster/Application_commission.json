@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "application_id",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180823215518",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "application_commission",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

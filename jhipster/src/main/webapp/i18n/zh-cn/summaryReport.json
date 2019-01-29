@@ -1,0 +1,20 @@
+{
+    "jhipsterApp": {
+        "summaryReport" : {
+            "home": {
+                "title": "Summary Reports",
+                "createLabel": "创建新 Summary Report",
+                "createOrEditLabel": "创建或编辑 Summary Report"
+            },
+            "created": "Summary Report {{ param }} 创建成功",
+            "updated": "Summary Report {{ param }} 更新成功",
+            "deleted": "Summary Report {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Summary Report {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Summary Report"
+            }
+        }
+    }
+}

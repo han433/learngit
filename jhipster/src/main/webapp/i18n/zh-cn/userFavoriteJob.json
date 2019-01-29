@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "userFavoriteJob" : {
+            "home": {
+                "title": "User Favorite Jobs",
+                "createLabel": "创建新 User Favorite Job",
+                "createOrEditLabel": "创建或编辑 User Favorite Job"
+            },
+            "created": "User Favorite Job {{ param }} 创建成功",
+            "updated": "User Favorite Job {{ param }} 更新成功",
+            "deleted": "User Favorite Job {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 User Favorite Job {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "User Favorite Job"
+            },
+            "userId": "User Id"
+        }
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "application_commission" : {
+            "home": {
+                "title": "Application Commissions",
+                "createLabel": "创建新 Application Commission",
+                "createOrEditLabel": "创建或编辑 Application Commission"
+            },
+            "created": "Application Commission {{ param }} 创建成功",
+            "updated": "Application Commission {{ param }} 更新成功",
+            "deleted": "Application Commission {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Application Commission {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Application Commission"
+            },
+            "application_id": "Application Id"
+        }
+    }
+}

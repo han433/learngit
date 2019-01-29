@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "hotListId",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20190107224813",
+    "dto": "mapstruct",
+    "service": "no",
+    "entityTableName": "hot_list_user",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "userId",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20190105025258",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "user_favorite_talent",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

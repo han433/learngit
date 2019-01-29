@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "sign_date",
+            "fieldType": "LocalDate"
+        }
+    ],
+    "changelogDate": "20181030204506",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "vc_agreement",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

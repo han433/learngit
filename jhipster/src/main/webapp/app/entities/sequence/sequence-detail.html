@@ -1,0 +1,35 @@
+
+<div>
+    <h2><span data-translate="jhipsterApp.sequence.detail.title">Sequence</span> {{vm.sequence.id}}</h2>
+    <hr>
+    <jhi-alert-error></jhi-alert-error>
+    <dl class="dl-horizontal jh-entity-details">
+        <dt><span data-translate="jhipsterApp.sequence.name">Name</span></dt>
+        <dd>
+            <span>{{vm.sequence.name}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.sequence.currentValue">Current Value</span></dt>
+        <dd>
+            <span>{{vm.sequence.currentValue}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.sequence.increment">Increment</span></dt>
+        <dd>
+            <span>{{vm.sequence.increment}}</span>
+        </dd>
+        <dt><span data-translate="jhipsterApp.sequence.maxValue">Max Value</span></dt>
+        <dd>
+            <span>{{vm.sequence.maxValue}}</span>
+        </dd>
+    </dl>
+
+    <button type="submit"
+            ui-sref="{{ vm.previousState }}"
+            class="btn btn-info">
+        <span class="glyphicon glyphicon-arrow-left"></span>&nbsp;<span data-translate="entity.action.back"> Back</span>
+    </button>
+
+    <button type="button" ui-sref="sequence-detail.edit({id:vm.sequence.id})" class="btn btn-primary">
+        <span class="glyphicon glyphicon-pencil"></span>
+        <span class="hidden-sm-down" data-translate="entity.action.edit"> Edit</span>
+    </button>
+</div>

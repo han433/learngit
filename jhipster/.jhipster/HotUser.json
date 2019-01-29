@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "hot",
+            "otherEntityName": "hot",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "hotid",
+            "fieldType": "Long"
+        },
+        {
+            "fieldName": "userid",
+            "fieldType": "Long"
+        }
+    ],
+    "changelogDate": "20180227014731",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "hot_user",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

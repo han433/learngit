@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "activityReport" : {
+            "home": {
+                "title": "Activity Reports",
+                "createLabel": "创建新 Activity Report",
+                "createOrEditLabel": "创建或编辑 Activity Report"
+            },
+            "created": "Activity Report {{ param }} 创建成功",
+            "updated": "Activity Report {{ param }} 更新成功",
+            "deleted": "Activity Report {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Activity Report {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Activity Report"
+            },
+            "name": "Name"
+        }
+    }
+}

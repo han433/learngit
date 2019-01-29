@@ -1,0 +1,16 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180815203856",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "activity_details_report",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

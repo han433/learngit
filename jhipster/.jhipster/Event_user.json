@@ -1,0 +1,11 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [],
+    "changelogDate": "20190109192335",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "event_user",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pager"
+}

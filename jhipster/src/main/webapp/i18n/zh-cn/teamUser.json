@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "teamUser" : {
+            "home": {
+                "title": "Team Users",
+                "createLabel": "创建新 Team User",
+                "createOrEditLabel": "创建或编辑 Team User"
+            },
+            "created": "Team User {{ param }} 创建成功",
+            "updated": "Team User {{ param }} 更新成功",
+            "deleted": "Team User {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Team User {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Team User"
+            },
+            "teamId": "Team Id"
+        }
+    }
+}

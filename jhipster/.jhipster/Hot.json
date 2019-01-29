@@ -1,0 +1,27 @@
+{
+    "fluentMethods": true,
+    "relationships": [
+        {
+            "relationshipName": "n",
+            "otherEntityName": "hotUser",
+            "relationshipType": "many-to-one",
+            "otherEntityField": "id"
+        }
+    ],
+    "fields": [
+        {
+            "fieldName": "title",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "notes",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20180227013505",
+    "dto": "no",
+    "service": "no",
+    "entityTableName": "hot",
+    "jpaMetamodelFiltering": false,
+    "pagination": "no"
+}

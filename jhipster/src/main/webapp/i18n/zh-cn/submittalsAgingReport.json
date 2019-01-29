@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "submittalsAgingReport" : {
+            "home": {
+                "title": "Submittals Aging Reports",
+                "createLabel": "创建新 Submittals Aging Report",
+                "createOrEditLabel": "创建或编辑 Submittals Aging Report"
+            },
+            "created": "Submittals Aging Report {{ param }} 创建成功",
+            "updated": "Submittals Aging Report {{ param }} 更新成功",
+            "deleted": "Submittals Aging Report {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 Submittals Aging Report {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "Submittals Aging Report"
+            },
+            "company": "Company"
+        }
+    }
+}

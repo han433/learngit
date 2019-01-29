@@ -1,0 +1,21 @@
+{
+    "jhipsterApp": {
+        "userAlert" : {
+            "home": {
+                "title": "User Alerts",
+                "createLabel": "创建新 User Alert",
+                "createOrEditLabel": "创建或编辑 User Alert"
+            },
+            "created": "User Alert {{ param }} 创建成功",
+            "updated": "User Alert {{ param }} 更新成功",
+            "deleted": "User Alert {{ param }} 删除成功",
+            "delete": {
+                "question": "你确定要删除 User Alert {{ id }} 吗？"
+            },
+            "detail": {
+                "title": "User Alert"
+            },
+            "userId": "User Id"
+        }
+    }
+}
